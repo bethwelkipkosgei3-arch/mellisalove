@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes! 💕 - Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="yes-page">
+    <div class="container">
+        <div class="celebration-content">
+            <h1>YES! 🎉</h1>
+            <h2>Thank you Melissa!</h2>
+            <p class="congrats-message">I'm so happy that you said yes!<br>I'm honored to be your Valentine!</p>
+            
+            <div class="celebration-message">
+                <p>Congratulations on being Gabriel's Valentine! 💕</p>
+            </div>
+            
+            <div id="hearts-animation" class="animation-container"></div>
+            <div id="money-animation" class="animation-container"></div>
+            
+            <button class="btn btn-back" onclick="goBack()">Back to Home</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            startHeartAnimation();
+            startMoneyAnimation();
+        });
+    </script>
+</body>
+</html>
